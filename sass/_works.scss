@@ -1,0 +1,49 @@
+.work-list{
+      
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .doings__application{
+    position: relative;
+ }
+
+ .sectiot-title-item{
+   bottom: 0;
+   position: absolute;
+
+   width: 370px;
+   height: 70px;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+align-items: center;
+display: flex;
+justify-content: center;
+background: rgba(47, 48, 58, 0.8)
+ }
+ 
+
+
+ 
+
+ .doings__section{
+   background-color: var(--main-background);
+}
+
+.section-title {
+   padding-bottom: 50px;
+
+   color: var(--title-text-color);
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.16;
+   text-align: center;
+   letter-spacing: 0.03em;
+}
+
