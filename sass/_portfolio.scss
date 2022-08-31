@@ -17,13 +17,17 @@
        color: var(--main-background);
        background-color: var(--accent-color);
     }
-
- }
+   }
  
  .btn-sec{
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+
+    @media screen and(min-width:1200px) {
+   flex-wrap: nowrap;
+   }
  }
 
 
@@ -107,7 +111,21 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+
+    justify-content: center;
+    align-items: center;
+
+    @media screen and(min-width:768px) {
+     justify-content: flex-start;
+    gap: 10px;
+   }
     
+ }
+
+ .img-portfolio{
+   @media screen and(min-width:768px) {
+    width: 354px;
+   }
  }
 
  .bord{
@@ -123,3 +141,5 @@
     border-right: solid 1px #EEEEEE;
 
  }
+
+ 

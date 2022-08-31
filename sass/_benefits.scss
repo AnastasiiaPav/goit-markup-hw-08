@@ -1,18 +1,48 @@
 .section.feature-cont{
-    background-color: var(--main-background);
+ 
     padding-bottom: 0px;
  }
 
  .feature-content{
+   width: 450px; 
+
+   @media screen and(min-width:768px) {
     
-    padding-left: 15px;
-    width: 285px;
+     width: 354px;
+     display: inline-table;
+     align-items: center;
+      
+   }
  
- }
+   @media screen and(min-width:1200px) {
+      
+     
+      width: 285px;
+      
+   
+   }
 
  .feature-list{
-    justify-content: space-between;
-    display: flex;
+   display: flex;
+   width: 480px;
+  
+   @media screen and (min-width: 1200px) {
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 1.6;
+      letter-spacing: 0.06em; 
+      display: flex;  
+      justify-content: space-between;
+    
+
+    @media screen and(min-width:768px) {
+      display: flex;
+      width: 354px;
+      
+   }
+      
+    }
+    
  }
  
 .section-title {
@@ -20,10 +50,12 @@
 
     color: var(--title-text-color);
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.14;
+   text-align: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+
 
     &.unimportland{
       padding-top: 0px;
@@ -31,6 +63,20 @@
       color: var(--second-background);
       margin: -34px;
    }
+ }
+
+ .icons{
+   width: 450px;
+   
+
+   @media screen and (min-width: 768px) {
+   width: 354px;
+  
+ }
+
+ @media screen and (min-width: 1200px) {
+   width: 270px;
+}
  }
 
 
@@ -66,24 +112,41 @@ background-image: url(../image/svg/diagram\ 1.svg);
 .feature-list .title {
    color: var(--title-text-color);
    font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+   font-size: 14px;
+   line-height: 1.14;
+   text-align: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+
 }
 
 .feature-list .text{
 
+   font-weight: 400;
    font-size: 14px;
-   line-height: 1.71;
+   line-height: 1.17;
    letter-spacing: 0.03em;
-   line-height: 24px;
    color: var(--primary-text-color);
  }
 
+ .text{
+   margin-bottom: 30px;
+ }
+
+ 
+
  .title{
+   align-items: center;
    margin-top: 30px;
    margin-bottom: 10px;
+
+   font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
   
  }
 
@@ -93,12 +156,10 @@ background-image: url(../image/svg/diagram\ 1.svg);
    margin-bottom: 10px;
    display: flex;
    justify-content: center;
-
-
-   font-weight: 500;
+   align-items: center;
+  font-weight: 500;
    font-size: 16px;
    line-height: 1.18;
-   color:var(--title-text-color);
-   letter-spacing: 0.03em;
-}
-
+   color: #212121;;
+   letter-spacing: 0.03em;}
+ }

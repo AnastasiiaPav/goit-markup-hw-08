@@ -12,6 +12,10 @@
      text-decoration: none;
      letter-spacing: 0.02em;
      }
+
+   .svg-menu{
+    fill: black;  
+   }
  
 .logo-blue {
 
@@ -24,6 +28,7 @@
      text-decoration: none;
      letter-spacing: 0.02em;
      }
+
 
  .page-header {
        border: 1px solid #ECECEC;
@@ -82,6 +87,8 @@
     &:focus {
        color: var(--accent-color);
     }
+
+   
      } 
  
  
@@ -97,6 +104,8 @@
        &:focus{
                color: var(--accent-color);
            }
+
+    
     }
     
 
