@@ -275,3 +275,18 @@
  text-decoration: underline;
  cursor: pointer;
  }
+
+ .modal-sec{
+      
+   position: absolute;
+top: 50%;
+left: 50%;
+width: 528px;
+height: 581px;
+padding: 40px;
+background-color: #FFFFFF;
+border-radius: 4px;
+
+transform: translate(-50% , -50%) ;
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
